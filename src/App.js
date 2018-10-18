@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//Marco Piccinini
 
 class App extends Component {
   constructor(props){
