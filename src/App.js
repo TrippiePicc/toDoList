@@ -43,6 +43,7 @@ class App extends Component {
 		<div className="lista">
 			<ol>
 			{
+        //non va il delete
 			  this.state.todos.map((todo, index) => <li /*onClick={(event, index) => this.delete}*/ key={index}>{todo}</li>)
 			}
 			</ol>
